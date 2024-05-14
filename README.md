@@ -64,3 +64,51 @@ For this study, the dataset is organized in the following structure (`LT: Left k
 |   |   ├── LT-B-LN, LT-B-TR, RT-B-LN, RT-B-TR, LT-C-LN, LT-C-TR, RT-C-LN, RT-C-TR
 ```
 ## How to Run?
+Initial `Anaconda Prompt` and activate the `VHL_software` environment. Download this repository and redirect the current working directory to the location of the `VHL_Study_Program.py` file. Run the prgroam with the following command: 
+
+    python VHL_Study_Program.py
+
+The main page of the sotware should pop up, as shown in Figure 2:
+
+<p align="center">
+<img width="50%" src="https://github.com/ArianAzg/Kidney_ultrasound_assessment_software/assets/48659018/7d08adf3-6daa-49fb-abf4-c1bd44a77be1"></a>
+    <br>
+    <em>Figure 2. Homepage of the VHL study software.</em>
+</p>
+
+First, click on the `Select a folder` button and in the newly opened window, one of the data folders listed above should be selected, as shown in Figure 3:
+
+<p align="center">
+<img width="70%" src="https://github.com/ArianAzg/Kidney_ultrasound_assessment_software/assets/48659018/2098449d-89f3-41bf-8c6b-23321a936d4c"></a>
+    <br>
+    <em>Figure 3. Selection of a desired folder to start the assessment.</em>
+</p>
+
+After this step, click on the `Show files` button to display the available videos to process. As you may have noticed, the list box will be updated with the available scans, shown in Figure 4:
+
+<p align="center">
+<img width="50%" src="https://github.com/ArianAzg/Kidney_ultrasound_assessment_software/assets/48659018/0bbe511e-1351-4c02-a6e5-857edc31580d"></a>
+    <br>
+    <em>Figure 4. Available videos to assess.</em>
+</p>
+From this list, select the desired video to assess by `double-clicking` on the video name and click on the `Show series` button to play the video in a new window, as shown in Figure 5. Please note that the questions only need to be answered once for each kidney and for the highlighted video name in the list (highlighted as **_green_**). You can open the other un-highlighted videos at the same time as supportive videos to help you make the decision. Please note that a `sliding bar` is integrated in the video display window where the reader can swipe in time for better analysis.
+
+<p align="center">
+<img width="90%" src="https://github.com/ArianAzg/Kidney_ultrasound_assessment_software/assets/48659018/1ae202d8-6e9f-4ee2-812b-b5bc000034ae"></a>
+    <br>
+    <em>Figure 5. Displaying the selected video with sliding bar for swinging in time.</em>
+</p>
+
+Next, the rater should answer the questions appeared under the `Show series` button. Once the entire assessment is complete, the rater should click on `Save assessment` button. This step saves all the human rater input in an associated CSV file, named “FinalScores.csv” located in the current working directory. After each successful assessment, a new message will be shown on the screen that displays `Please select the new video!`. At this point, another highlighted video in the list box should be selected for assessment or if you have completed all the kidneys in that folder, then it is time to select the next folder.
+
+
+## Citation 
+
+For any utilization of the code content of this repository, the following paper needs to get cited by the user:
+> 1. TBD
+
+## <a name="license">©️ License</a>
+
+This project is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+
+
