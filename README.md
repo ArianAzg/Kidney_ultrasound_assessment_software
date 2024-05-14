@@ -1,1 +1,1 @@
-# Kidney_ultrasound_assessment_software
+# Kidney Ultrasound Assessment Software
