@@ -10,17 +10,17 @@
     <img src="https://img.shields.io/badge/Language-Python 3.10-informational?style=flat&logo=Python&color=2bbc8a">
   </a>
   <a href="https://github.com/ankitwasankar/mftool-java">
-    <img src="https://img.shields.io/badge/Tools-Numpy-informational?style=flat&logo=Numpy&color=ffde57">
+    <img src="https://img.shields.io/badge/Tools-Numpy-informational?style=flat&logo=Numpy&color=FAC205">
   </a>
   <a href="https://github.com/ankitwasankar/mftool-java">
-    <img src="https://img.shields.io/badge/Tools-OpenCV-informational?style=flat&logo=#5C3EE8&color=2bbc8a">
+    <img src="https://img.shields.io/badge/Tools-OpenCV-informational?style=flat&logo=opencv&color=2bbc8a">
   </a>
   <a href="https://github.com/ankitwasankar/mftool-java">
-    <img src="https://img.shields.io/badge/Tools-Tkinter-informational?style=flat&logo=Tkinter&color=ff0000">
+    <img src="https://img.shields.io/badge/Tools-Tkinter-informational?style=flat&logo=python&color=DC143C">
   </a>
 
   <a href="https://github.com/ankitwasankar/mftool-java">
-    <img src="https://img.shields.io/badge/Operating System-Windows 10-informational?style=flat&logo=#0078D6&color=2bbc8a">
+    <img src="https://img.shields.io/badge/Operating System-Windows 10-informational?style=flat&logo=Windows10&color=E6DAA6">
   </a>
 
 
