@@ -109,6 +109,6 @@ For any utilization of the code content of this repository, the following paper 
 
 This project is licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
-## <div align="center">Contact</div>
+## Contact 
 
 For bug reports and feature requests please contact us at: aazarang@unc.edu. 
