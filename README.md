@@ -105,7 +105,7 @@ Next, the rater should answer the questions appeared under the `Show series` but
 For any utilization of the code content of this repository, the following paper needs to get cited by the user:
 > 1. TBD
 
-## <a name="license">©️ License</a>
+## License
 
 This project is licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
