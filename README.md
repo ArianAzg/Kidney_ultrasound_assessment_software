@@ -103,7 +103,7 @@ Next, the rater should answer the questions appeared under the `Show series` but
 ## Citation 
 
 For any utilization of the code content of this repository, the following paper needs to get cited by the user:
-> 1. TBD
+> 1. TBD (Journal: Abdominal Radiology)
 
 ## License
 
