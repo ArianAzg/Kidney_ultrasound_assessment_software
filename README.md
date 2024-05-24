@@ -25,12 +25,12 @@
 </h1>
 
 ## Introduction 
-First, the backbone components for processing VHL study data will be explained. The kidney ultrasound scans saved on ultrasound machine in _**DICOM**_ format first converted into a common video format, i.e., _**AVI**_. For each subject participated in the study, the best scans for each kidney were selected for both B-mode and contrast enhanced imaging modalities. Overall, **116** scans were selected and compiled for the evaluation phase of this study belonging to 15 subjects. As part of the pre-processing steps, the videos were categorized into “B-mode only” and “B-mode + contrast enhanced” folders separately. It is due to the study protocol to evaluate the data in this format. The naming conventions for each folder of the study were then changed and randomly generated with an associated look-up table. This part is a requirement of the evaluation phase to keep the readers fully-blind and unbiased towards each subject. Three independent radiologist readers were asked to analyze the dataset. A user-friendly graphical user interface (GUI) was developed and distributed to the readers for more reliable and faster assessment of the dataset. The GUI was developed with the Tkinter package of Python and packaged as a standalone executable software for Windows users. Below, the step-by-step installation is provided. As part of the assessment phase of the dataset, a series of important questions were given to the software developer by the project lead to be incorporated into the GUI. Apart from that, the program is capable of displaying several videos at the same time to help the readers confirm their assessments. For the outcome of each individual scan assessment, the provided answers were saved into one single _**CSV**_ file. The lines in the _**CSV**_ files were then assessed for agreement between the readers at different aspects. Summary of study pipeline is shown in Figure 1.
+First, the backbone components for processing VHL study data will be explained. The kidney ultrasound scans saved on ultrasound machine in _**DICOM**_ format first converted into a common video format, i.e., _**AVI**_. For each subject participated in the study, the best scans for each kidney were selected for both B-mode and contrast enhanced imaging modalities. Overall, **116** scans were selected and compiled for the evaluation phase of this study belonging to 15 subjects. As part of the pre-processing steps, the videos were categorized into “B-mode only” and “B-mode + contrast enhanced” folders separately for the study protocol. The naming conventions for each folder of the study were then changed and randomly generated with an associated look-up table. This is a requirement of the evaluation phase to keep the readers fully-blind and unbiased towards each subject. Three independent radiologist readers were asked to analyze the dataset. A user-friendly graphical user interface (GUI) was developed and distributed to the readers for more reliable and faster assessment of the dataset. The GUI was developed with the Tkinter package of Python and packaged as a standalone executable software for Windows users. Below, the step-by-step installation is provided. As part of the assessment phase of the dataset, a series of questions were given to the software developer by the project lead to be incorporated into the GUI. Additionaly, the program is capable of displaying several videos at the same time to help the readers confirm their assessments. For each individual scan assessment, the provided answers were saved into one single _**CSV**_ file. The lines in the _**CSV**_ files were then assessed for agreement between the readers pn different aspects. A summary of the study pipeline is shown in Figure 1.
 
 <p align="center">
 <img width="100%" src="https://github.com/ArianAzg/Kidney_ultrasound_assessment_software/assets/48659018/f8ca5b51-1fa5-4f1c-a4eb-192bd75a6044"></a>
     <br>
-    <em>Figure 1. Processing steps in analysis of kidney ultrasound scans.</em>
+    <em>Figure 1. Processing steps in analyzing the kidney ultrasound scans.</em>
 </p>
 
 ## Installation 
@@ -43,7 +43,7 @@ All the required Python packages can be installed using the following command in
     pip install -r requirements.txt
 
 ## Dataset Organization
-For this study, the dataset is organized in the following structure (`LT: Left kidney`, `RT: Right kidney`, `B: B-mode`, `C: Contrast`, `LN: Longitudinal view`, `TR: Transverese view`):
+For this study, the dataset is organized in the following structure (`LT: Left kidney`, `RT: Right kidney`, `B: B-mode`, `C: Contrast`, `LN: Longitudinal view`, `TR: Transverse view`):
 
 ```
 ├── VHL Study Recordings
@@ -62,7 +62,7 @@ For this study, the dataset is organized in the following structure (`LT: Left k
 |   |   ├── LT-B-LN, LT-B-TR, RT-B-LN, RT-B-TR, LT-C-LN, LT-C-TR, RT-C-LN, RT-C-TR
 ```
 ## How to Run?
-Initial `Anaconda Prompt` and activate the `VHL_software` environment. Download this repository and redirect the current working directory to the location of the `VHL_Study_Program.py` file. Run the prgroam with the following command: 
+Initial `Anaconda Prompt` and activate the `VHL_software` environment. Download this repository and redirect the current working directory to the location of the `VHL_Study_Program.py` file. Run the program with the following command: 
 
     python VHL_Study_Program.py
 
@@ -89,7 +89,7 @@ After this step, click on the `Show files` button to display the available video
     <br>
     <em>Figure 4. Available videos to assess.</em>
 </p>
-From this list, select the desired video to assess by `double-clicking` on the video name and click on the `Show series` button to play the video in a new window, as shown in Figure 5. Please note that the questions only need to be answered once for each kidney and for the highlighted video name in the list (highlighted as **_green_**). You can open the other un-highlighted videos at the same time as supportive videos to help you make the decision. Please note that a `sliding bar` is integrated in the video display window where the reader can swipe in time for better analysis.
+From this list, select the video to assess by `double-clicking` on the video name and click on the `Show series` button to play the video in a new window, as shown in Figure 5. Please note that the questions only need to be answered once for each kidney and for the highlighted video name in the list (highlighted as **_green_**). You can open the other un-highlighted videos at the same time as supportive videos to help you make the decision. Please note that a `sliding bar` is integrated in the video display window where the reader can swipe in time for better analysis.
 
 <p align="center">
 <img width="90%" src="https://github.com/ArianAzg/Kidney_ultrasound_assessment_software/assets/48659018/1ae202d8-6e9f-4ee2-812b-b5bc000034ae"></a>
