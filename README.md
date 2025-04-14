@@ -115,4 +115,4 @@ This project is licensed under the [MIT License](http://opensource.org/licenses/
 
 ## Contact 
 
-For bug reports and feature requests please contact us at: aazarang@unc.edu. 
+For bug reports and feature requests please contact us at: arianazaang@gmail.com & aazarang@unc.edu. 
