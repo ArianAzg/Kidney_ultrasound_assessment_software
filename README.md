@@ -20,7 +20,7 @@
   </a>
 
   <a href="https://github.com/ankitwasankar/mftool-java">
-    <img src="https://img.shields.io/badge/Operating System-Windows 10-informational?style=flat&logo=Windows10&color=E6DAA6">
+    <img src="https://img.shields.io/badge/Operating System-Windows 10&11-informational?style=flat&logo=Windows10&color=E6DAA6">
   </a>
 </h1>
 
