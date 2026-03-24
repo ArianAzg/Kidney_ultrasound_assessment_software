@@ -30,9 +30,8 @@ The kidney ultrasound scans saved on ultrasound machine in _**DICOM**_ format we
 #### Evaluation phase
 Three independent radiology board certified readers were asked to analyze the dataset. A user-friendly graphical user interface (GUI) was developed and distributed to the readers. The GUI was developed with the Tkinter package of Python and packaged as a standalone executable software for Windows users. Below, the step-by-step installation is provided. As part of the assessment phase of the dataset, a series of questions were given to the software developer by the project lead to be incorporated into the GUI. Additionally, the program is capable of displaying several videos at the same time to help the readers confirm their assessments. For each individual scan assessment, the provided answers were saved into one single _**CSV**_ file. The lines in the _**CSV**_ files were then assessed for agreement between the readers on different aspects. A summary of the study pipeline is shown in Figure 1.
 
-
 <p align="center">
-<img width="100%" src="https://github.com/ArianAzg/Kidney_ultrasound_assessment_software/assets/48659018/f8ca5b51-1fa5-4f1c-a4eb-192bd75a6044"></a>
+<img width="100%" src="https://github.com/user-attachments/assets/134a0a01-8401-4e34-9dea-da9cf5eaf8c4"></a>
     <br>
     <em>Figure 1. Processing steps in analyzing the kidney ultrasound scans.</em>
 </p>
