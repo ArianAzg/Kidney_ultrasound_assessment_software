@@ -106,7 +106,7 @@ Next, the reader should answer the questions which appear under the `Show series
 ## Citation 
 
 For any utilization of the code content of this repository, the following paper needs to get cited by the user:
-> 1. TBD (Journal: Translational Andrology and Urology (TAU))
+> 1. Feasibility of CEUS as a Screening Tool for Patients at High Risk for Kidney Malignancies (Journal: Translational Andrology and Urology (TAU))
 
 ## License
 
