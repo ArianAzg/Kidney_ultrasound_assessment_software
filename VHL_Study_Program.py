@@ -3,7 +3,7 @@
 
 # In[1]:
 
-#  * Copyright (c) 2025 Arian Azarang at UNC Chapel Hill. All rights reserved.
+#  * Copyright (c) 2026 Arian Azarang at UNC Chapel Hill. All rights reserved.
 #  *
 #  * This source code is intended for internal use only and may not be
 #  * reproduced, distributed, or transmitted in any form or by any means,
