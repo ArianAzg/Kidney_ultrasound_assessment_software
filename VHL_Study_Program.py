@@ -3,6 +3,18 @@
 
 # In[1]:
 
+#  * Copyright (c) 2025 Arian Azarang at UNC Chapel Hill. All rights reserved.
+#  *
+#  * This source code is intended for internal use only and may not be
+#  * reproduced, distributed, or transmitted in any form or by any means,
+#  * including photocopying, recording, or other electronic or mechanical
+#  * methods, without the prior written permission of the copyright owner,
+#  * except in the case of brief quotations embodied in critical reviews
+#  * and certain other noncommercial uses permitted by copyright law.
+#  *
+#  * For permission requests, write to aazarang@unc.edu.
+
+
 
 import tkinter
 import os, glob
