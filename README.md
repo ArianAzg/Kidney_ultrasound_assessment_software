@@ -106,7 +106,7 @@ Next, the reader should answer the questions which appear under the `Show series
 ## Citation 
 
 For any utilization of the code content of this repository, the following paper needs to get cited by the user:
-> 1. A. Azarang, et al., Feasibility of CEUS as a Screening Tool for Patients at High Risk for Kidney Malignancies (2026, Journal: Translational Andrology and Urology (TAU))
+> 1. A. Azarang, et al., Feasibility of CEUS as a Screening Tool for Patients at High Risk for Kidney Malignancies (TBD)
 
 ## License
 
